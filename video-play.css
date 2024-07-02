@@ -188,3 +188,22 @@
     color: #0000ff;
 }
 
+/* Media Query */
+
+@media (max-width: 900px) {
+    .play-video,.right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+
+    .vid-description{
+        padding-left: 0;
+    }
+.play-video .play-video-info a{
+    margin: 0 15px 15px 0;
+    
+}
+
+}
