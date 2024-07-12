@@ -24,7 +24,7 @@ img{
 nav{
     padding: 10px 2%;
     justify-content: space-between;
-    box-shadow: 0 0  10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0  10px rgba(0, 0, 0, 0.2); */
     background: #fff;
     position: sticky;
     top: 0;
@@ -39,7 +39,7 @@ nav{
 .nav-right .user-icon{
     width:35px;
     border-radius: 50%;
-    margin-right:0;
+    margin-right:10px;
 }
 
 .nav-left .menu-icon{
@@ -59,16 +59,17 @@ nav{
 .nav-middle .search-box{
     border: 1px solid #ccc;
     margin-right: 15px;
-    padding: 8px 12px;
+    padding: 12px 12px;
     border-radius: 25px;
 
 }
 
 .nav-middle .search-box input{
-    width:400px;
+    width:500px;
     border: 0;
     outline: 0;
     background: transparent;
+    font-size: 15px;
 }
 
 .nav-middle .search-box img{
@@ -95,13 +96,27 @@ nav{
 .shortcut-links a {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: fit-content;
     flex-wrap: wrap;
 }
-.shortcut-links a:first-child{
-    color:#ed3833;
+
+.shortcut-links a p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #000;
 }
+
+
+.shortcut-links  p{
+    margin:15px 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
 .sidebar hr{
     border: 0;
     height: 1px;
@@ -171,14 +186,14 @@ display: none;
 
 .list-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 16px;
     grid-row-gap: 30px;
     margin-top:15px
 }
 .vid-list .thumbnail1{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .vid-list .flex-div{
@@ -223,7 +238,7 @@ display: none;
 
     .nav-right .user-icon{
         display: block;
-        width: 30px;
+        width: 33px;
     }
 
     .nav-middle .search-box input{
