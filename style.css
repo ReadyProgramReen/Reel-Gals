@@ -46,9 +46,26 @@ nav{
     margin-right: 25px;
 }
 
-.nav-left .logo{
+/* .nav-left .logo{
     width:130px
+} */
+
+ #header{
+    font-size: 50px;
+    color:#ce8e8e;
+    border: 3px solid rgb(145, 59, 59);
+    border-radius: 39px;
+    padding: 3px 09px;
+    margin: 2px 0;
+    background: rgb(172, 111, 111);
 }
+
+#header:hover{
+    color:rgb(118, 68, 68);
+    cursor: pointer;
+    box-shadow: 5px 3px rgba(0,0,0,0.2);
+}
+
 
 .nav-middle .mic-icon{
     width: 16px;
@@ -244,6 +261,32 @@ display: none;
     margin-bottom: 5px;
 }
 
+/* Shorts */
+.clips .title {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.clips p{
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif0;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.shorts-name{
+    display:flex ;
+    gap: 20px;
+    justify-content: space-between;
+    height: 400px;
+
+}
+.shorts-name img{
+    width: 18.5%;
+    border-radius: 10px;
+}
 
 /* Media Query */
 @media (max-width: 1200px){
@@ -251,11 +294,32 @@ display: none;
         font-size: 10px;
     }
 
+    /* Shorts */
+    .clips{
+        overflow-x: scroll;
+    }
+
+    .shorts-name{
+        height: 300px;
+    
+    }
+    .shorts-name img{
+        width: 28.5%;
+        
+        
+    }
+
 }
 
 @media (max-width: 1000px){
     .tag-nav{
         font-size: 8px;
+    }
+/* Shorts */
+    .shorts-name img{
+        width:30%;
+        
+        
     }
 }
 
