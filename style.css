@@ -51,7 +51,7 @@ nav{
 } */
 
  #header{
-    font-size: 50px;
+    font-size: 40px;
     color:#ce8e8e;
     border: 3px solid rgb(145, 59, 59);
     border-radius: 39px;
@@ -99,6 +99,7 @@ nav{
     justify-content: space-around;
     margin: 13px 0 10px 100px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .tag-nav p{
@@ -106,6 +107,7 @@ nav{
     padding: 6px;
     border-radius: 5px;
     font-weight: 600;
+    cursor: pointer;
    
     
 }
@@ -309,16 +311,24 @@ display: none;
         
     }
 
+    .right-icon{
+        display:none;
+    }
+
 }
 
 @media (max-width: 1000px){
+
+    #header{
+        font-size: 35px;
+
+    }
     .tag-nav{
         font-size: 8px;
     }
 /* Shorts */
     .shorts-name img{
-        width:30%;
-        
+        width:30%;    
         
     }
 }
@@ -359,4 +369,5 @@ display: none;
     .logo{
         width:90px;
     }
+    
 }
